@@ -1,0 +1,11 @@
+/* global css */
+header nav ul a {
+    color: black;
+    text-decoration: none;
+    padding: 0 8px;
+    transition: 500ms;
+}
+
+header nav ul a:hover {
+    color: yellow;
+}
