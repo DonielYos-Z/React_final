@@ -14,7 +14,9 @@ export default function Home() {
                 className="form-control my-3"
             />
             <button onClick={() => setQuery(query)} className="btn btn-primary">Search</button>
+            <Movies query={query} />
         </div>
     )
 }
+
 
