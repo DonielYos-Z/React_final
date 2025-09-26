@@ -11,6 +11,7 @@ export default function MovieInfo() {
             doApi();
         };
         fetchData();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [params.id]);
     const doApi = async () => {
         try {
@@ -49,5 +50,6 @@ export default function MovieInfo() {
         </div>
     )
 }
+
 
 
