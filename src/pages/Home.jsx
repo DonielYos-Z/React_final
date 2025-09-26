@@ -13,7 +13,8 @@ export default function Home() {
                 onChange={(e) => setQuery(e.target.value)}
                 className="form-control my-3"
             />
-            <Movies query={query} />
+            <button onClick={() => setQuery(query)} className="btn btn-primary">Search</button>
         </div>
     )
 }
+
