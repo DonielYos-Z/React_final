@@ -7,8 +7,11 @@ export default function MovieInfo() {
     const [loading, setLoading] = useState(false)
     const params = useParams()
     useEffect(() => {
-        doApi()
-    }, [params.id])
+        const fetchData = () => {
+            doApi();
+        };
+        fetchData();
+    }, [params.id]);
     const doApi = async () => {
         try {
             setLoading(true)
@@ -46,4 +49,5 @@ export default function MovieInfo() {
         </div>
     )
 }
+
 
