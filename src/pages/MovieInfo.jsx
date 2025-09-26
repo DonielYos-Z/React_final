@@ -42,7 +42,8 @@ export default function MovieInfo() {
                     <p><strong>Awards:</strong> {item.Awards}</p>
                 </>
             )}
-            <Link to="/movies" className='btn btn-secondary mt-3'>Back to list</Link>
+            <Link to="/" className='btn btn-secondary mt-3'>Back to list</Link>
         </div>
     )
 }
+
