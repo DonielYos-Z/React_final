@@ -64,6 +64,9 @@ https://www.omdbapi.com/?i=MOVIE_ID&apikey=YOUR_KEY
 4. Build for production:
    npm run build
 
+5. Netlify link:
+   https://fanciful-frangipane-db4ed6.netlify.app/
+   
 ## Pages
 
 - Home Page (/): Contains a search bar and displays movie results dynamically.
