@@ -2,6 +2,10 @@
 
 This is the final assignment project for the React course. It is a React-based VOD (Video On Demand) style application that allows users to search for movies, view movie details, and navigate between different pages of the app.
 
+## Live Demo
+You can try the project live here:
+[Movie Search App on Netlify](https://fanciful-frangipane-db4ed6.netlify.app/)
+
 ## Project Structure
 
 Final_Assignment_React/
@@ -63,9 +67,6 @@ https://www.omdbapi.com/?i=MOVIE_ID&apikey=YOUR_KEY
 
 4. Build for production:
    npm run build
-
-5. Netlify link:
-   https://fanciful-frangipane-db4ed6.netlify.app/
    
 ## Pages
 
